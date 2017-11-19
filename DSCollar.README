@@ -1,0 +1,10 @@
+Welcome to DsCollar.
+
+DsCollar is born out of the frustration that the current OC system generates at build time. I think it can be improved
+upon, made easier for the users, and *stable* as in updates only when it is strictly necessary.
+This project is a fork of OpenCollar focused on stability, reliability, speed and reduced script weight.
+The main aims for this project are as follows:
+a) Reduce bandwidth consumption
+b) create a solid core collar that handles ownership, positioning and locking.
+c) Modularize so that parts like RLV, stripping, etc. can be deistributed as plug-ins
+d) Partially revert the current oc6 scripting system so that all scripts can run in one prim.
