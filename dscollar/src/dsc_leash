@@ -1,3 +1,4 @@
+/*
 dsc_bell - 170509.0
 
 Based on OpenCollar 6.5.0
@@ -26,8 +27,9 @@ If these platforms should allow more fine-grained permissions in the
 future, then "full perms" will mean the most permissive possible set    
 of permissions allowed by the platform.                                 
 
-Upstream source code available at: https:/|/github.com/VirtualDisgrace/opencollar/tree/master/src/collar
+Upstream source code available at: https:/|/github.com/VirtualDisgrace/tenshilove/opencollar/dscollar/src
 
+*/
 
 
 string g_sSubMenu = "Bell";
