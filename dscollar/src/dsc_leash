@@ -27,7 +27,8 @@ If these platforms should allow more fine-grained permissions in the
 future, then "full perms" will mean the most permissive possible set    
 of permissions allowed by the platform.                                 
 
-Upstream source code available at: https:/|/github.com/VirtualDisgrace/opencollar/tree/master/src/collar
+Upstream source code available at: https://github.com/tenshilove/opencollar/blob/master/dscollar/src/dsc_leash
+
 */
 
 string TOK_LENGTH   = "leashlength";
