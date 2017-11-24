@@ -1,114 +1,36 @@
-//////////////////////////////////////////////////////////////////////////////
+/*
 
-//                                                                          //
+dsc_label - 161030.1
 
-//              ____                   ______      ____                     //
+Based on OpenCollar 6.5.0
+Copyright (c) 2008 - 2016 Nandana Singh, Garvin Twine, Cleo Collins,    
+Master Starship, Satomi Ahn, Joy Stipe, Wendy Starfall, Medea Destiny,
+Sumi Perl, Romka Swallowtail, littlemousy, North Glenwalker et al.     
 
-//             / __ \____  ___  ____  / ____/___  / / /___ ______           //
+This script is free software: you can redistribute it and/or modify     
+it under the terms of the GNU General Public License as published       
+by the Free Software Foundation, version 2.                             
+                                                                          
+This script is distributed in the hope that it will be useful,          
+but WITHOUT ANY WARRANTY; without even the implied warranty of          
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the            
+GNU General Public License for more details.                            
+                                                                          
+You should have received a copy of the GNU General Public License       
+along with this script; if not, see http:/|/www.gnu.org/licenses/gpl-2.0        
 
-//            / / / / __ \/ _ \/ __ \/ /   / __ \/ / / __ `/ ___/           //
+This script and any derivatives based on it must remain "full perms".   
+                                                                          
+"Full perms" means maintaining MODIFY, COPY, and TRANSFER permissions   
+in Second Life(R), OpenSimulator and the Metaverse.                     
+                                                                          
+If these platforms should allow more fine-grained permissions in the    
+future, then "full perms" will mean the most permissive possible set    
+of permissions allowed by the platform.                                 
 
-//           / /_/ / /_/ /  __/ / / / /___/ /_/ / / / /_/ / /               //
+Upstream source code available at: https:/|/github.com/VirtualDisgrace/opencollar/tree/master/src/collar
 
-//           \____/ .___/\___/_/ /_/\____/\____/_/_/\__,_/_/                //
-
-//               /_/                                                        //
-
-//                                                                          //
-
-//                        ,^~~~-.         .-~~~"-.                          //
-
-//                       :  .--. \       /  .--.  \                         //
-
-//                       : (    .-`<^~~~-: :    )  :                        //
-
-//                       `. `-,~            ^- '  .'                        //
-
-//                         `-:                ,.-~                          //
-
-//                          .'                  `.                          //
-
-//                         ,'   @   @            |                          //
-
-//                         :    __               ;                          //
-
-//                      ...{   (__)          ,----.                         //
-
-//                     /   `.              ,' ,--. `.                       //
-
-//                    |      `.,___   ,      :    : :                       //
-
-//                    |     .'    ~~~~       \    / :                       //
-
-//                     \.. /               `. `--' .'                       //
-
-//                        |                  ~----~                         //
-
-//                           Label - 161030.1                               //
-
-// ------------------------------------------------------------------------ //
-
-//  Copyright (c) 2006 - 2016 Xylor Baysklef, Kermitt Quirk,                //
-
-//  Thraxis Epsilon, Gigs Taggart, Strife Onizuka, Huney Jewell,            //
-
-//  Salahzar Stenvaag, Lulu Pink, Nandana Singh, Cleo Collins, Satomi Ahn,  //
-
-//  Joy Stipe, Wendy Starfall, Romka Swallowtail, littlemousy,              //
-
-//  Garvin Twine et al.                                                     //
-
-// ------------------------------------------------------------------------ //
-
-//  This script is free software: you can redistribute it and/or modify     //
-
-//  it under the terms of the GNU General Public License as published       //
-
-//  by the Free Software Foundation, version 2.                             //
-
-//                                                                          //
-
-//  This script is distributed in the hope that it will be useful,          //
-
-//  but WITHOUT ANY WARRANTY; without even the implied warranty of          //
-
-//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the            //
-
-//  GNU General Public License for more details.                            //
-
-//                                                                          //
-
-//  You should have received a copy of the GNU General Public License       //
-
-//  along with this script; if not, see www.gnu.org/licenses/gpl-2.0        //
-
-// ------------------------------------------------------------------------ //
-
-//  This script and any derivatives based on it must remain "full perms".   //
-
-//                                                                          //
-
-//  "Full perms" means maintaining MODIFY, COPY, and TRANSFER permissions   //
-
-//  in Second Life(R), OpenSimulator and the Metaverse.                     //
-
-//                                                                          //
-
-//  If these platforms should allow more fine-grained permissions in the    //
-
-//  future, then "full perms" will mean the most permissive possible set    //
-
-//  of permissions allowed by the platform.                                 //
-
-// ------------------------------------------------------------------------ //
-
-//       github.com/VirtualDisgrace/opencollar/tree/master/src/collar       //
-
-// ------------------------------------------------------------------------ //
-
-//////////////////////////////////////////////////////////////////////////////
-
-
+*/
 
 string g_sAppVersion = "¹⋅⁶";
 
